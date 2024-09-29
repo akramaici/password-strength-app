@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #000;
+    font-family: "popinns",sans-serif;
+}
+form input{
+   background: transparent;
+   padding: 13px 44px;
+   border: 1px solid #fff;
+   color: #fff; 
+}
+form input:focus{
+   outline: none;
+}
+.result{
+    margin-top: 12px;
+}
+.result p{
+    color: #fff;
+    font-size: 14px;
+}
